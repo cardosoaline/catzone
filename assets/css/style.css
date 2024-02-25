@@ -12,14 +12,18 @@ main{
     margin-bottom: 100px;
 }
 
+nav.cabecalho .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 .container{
     width: 100%;
     max-width: 1137px;
     margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content:space-between
-    
+    padding-left: 50px; 
+    padding-right: 50px;
 }
 .cabecalho{
     background-color: #3498DB;
@@ -36,7 +40,7 @@ ul .gato-adocao{
     padding: 10px 10px;
     border-radius: 5px;
     display:inline-block;
-    margin: 10px 10px;
+    margin: 10px 15px;
 }
 
 .gato-adocao:hover{
@@ -49,5 +53,10 @@ ul .gato-adocao{
     margin-bottom: 5px;
 }
 
-/* TODO - finalizar responsividade mobile*/
+@media screen and (max-width: 600px) {
+	.container{
+        align-items: center;
+    }
+   
+}
 

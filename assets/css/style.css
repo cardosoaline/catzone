@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     font-family: Calibri,sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -26,6 +27,46 @@ body{
 
 .menu .container{
     display: flex;
-    justify-content:space-between;   
+    justify-content:space-between;  
 }
 
+.conteudo .container .lista-gatos-adocao{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.conteudo .container .lista-gatos-adocao .info-gato{
+    background: #fff;
+    width: 220px;
+    height: 283px;
+    border-radius:6px;
+    padding:10px 10px;
+    margin:38px 0;  
+}
+
+.conteudo .container .lista-gatos-adocao .info-gato .nome-gato{
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+.conteudo .container .lista-gatos-adocao .info-gato .dados-gato{
+    font-size: 16px;
+    text-align: left;
+    color: #333;
+}
+
+.conteudo .container .lista-gatos-adocao .info-gato:hover{
+    background: #3498DB;
+}
+
+.conteudo .container .lista-gatos-adocao .info-gato:hover .nome-gato, .conteudo .container .lista-gatos-adocao .info-gato:hover .dados-gato{
+    color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+    .conteudo .container .lista-gatos-adocao{
+        display: flex;
+        justify-content: center;
+    }
+  }

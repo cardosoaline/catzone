@@ -46,18 +46,32 @@ nav.menu .container{
     
 }
 
-.nome-gato{
+ul li.gato-adocao:hover{
+    background:#3498DB;
+}
+
+ul li.gato-adocao:hover h2{
+color: #fff;
+}
+
+ul li.gato-adocao:hover p{
+color: #fff;
+}
+
+
+ul li.gato-adocao .nome-gato{
     text-align: center;
+    font-size: 24px;
+    color: #333;
     margin-bottom: 5px;
 }
 
-ul li.gato-adocao:hover{
-    background:#3498DB;
-    color:#fff;
+ul li.gato-adocao p{
+    font-size: 16px;
+    color: #333;
 }
 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 	.container ul{
         justify-content: center;
         margin: 20px 38px;

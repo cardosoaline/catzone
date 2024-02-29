@@ -28,3 +28,34 @@ background:#D9D9D9;
     align-items: center;
 }
 
+.conteudo .container .info-list-gatos{
+    border: 10px solid blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.conteudo .container .info-list-gatos .dados-gatos{
+    border-radius: 6px;
+    margin: 38px 0;
+    background: #fff;
+    padding:10px;
+}
+
+.conteudo .container .info-list-gatos .dados-gatos .nome-gato{
+    font-size: 24px;
+    text-align: center;
+}
+.conteudo .container .info-list-gatos .dados-gatos .dados-gato{
+    font-size: 16px;
+    text-align: left;
+}
+
+@media (max-width:640px){
+    .conteudo .container .info-list-gatos{
+        justify-content: center;
+    }  
+}
+
+
+

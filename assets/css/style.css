@@ -29,27 +29,39 @@ background:#D9D9D9;
 }
 
 .conteudo .container .info-list-gatos{
-    border: 10px solid blue;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap:wrap;
+    padding: 0 20px;
+    
 }
 
-.conteudo .container .info-list-gatos .dados-gatos{
+.conteudo .container .info-list-gatos .info-gatos{
     border-radius: 6px;
     margin: 38px 0;
     background: #fff;
     padding:10px;
 }
 
-.conteudo .container .info-list-gatos .dados-gatos .nome-gato{
+.conteudo .container .info-list-gatos .info-gatos .nome-gato{
     font-size: 24px;
     text-align: center;
 }
-.conteudo .container .info-list-gatos .dados-gatos .dados-gato{
+.conteudo .container .info-list-gatos .info-gatos .dados-gato{
     font-size: 16px;
     text-align: left;
 }
+
+.conteudo .container .info-list-gatos .info-gatos:hover .nome-gato,
+.conteudo .container .info-list-gatos .info-gatos:hover .dados-gato{
+    color: #fff;
+}
+
+.conteudo .container .info-list-gatos .info-gatos:hover,
+.conteudo .container .info-list-gatos .info-gatos:hover{
+    background: #3498DB;
+}
+
 
 @media (max-width:640px){
     .conteudo .container .info-list-gatos{

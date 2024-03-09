@@ -32,7 +32,7 @@ nav.menu .container{
 }
 
 header.banner{
-    background-image: url("assets\img\bgheader.png");
+    background-image: url("/assets/img/bgheader.png");
     width: 100%;
     background-size: cover;
 }

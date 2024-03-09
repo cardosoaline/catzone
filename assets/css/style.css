@@ -115,5 +115,10 @@ main.conteudo .container .info-gatos .dados-adocao-gato:hover{
     main.conteudo .container .info-gatos{
         justify-content: center;
     }
+
+    header.banner{
+        background-image: url("https://cardosoaline.github.io/catzone/assets/img/bg-header-mobile.png");
+    }
    
   }
+

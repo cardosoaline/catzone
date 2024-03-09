@@ -31,6 +31,49 @@ nav.menu .container{
     
 }
 
+header.banner{
+    background: url(/assets/img/bg-header.png);
+    width: 100%;
+    background-size: cover;
+}
+
+header.banner .container .wrap{
+    width: 274px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+header.banner .container .wrap h1.title-banner{
+    font-size:48px;
+    color: #fff;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+header.banner .container .wrap p.text-banner{
+font-size: 16px;
+color: #fff;
+font-family: "Ruluko", sans-serif;
+}
+
+header.banner .container .wrap a.button-cta{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 8px 0px;
+    width: 240px;
+    display: inline-block;
+    margin-top: 27px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+}
+
 main.conteudo .container .info-gatos{
     display: flex;
     flex-wrap: wrap;
